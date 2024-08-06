@@ -3,3 +3,7 @@ Naive performace experiment of StringBuilder used in vscode (https://github.com/
 Results for couple runs:
 
 ![image](https://github.com/user-attachments/assets/11ffc0b9-3ab7-4572-9208-bcfe8a3f180b)
+
+Conclusions: 
+
+vscode implementaion of **StringBuilder** for big strings (10_000_000 chars, concatenated char by char) **is faster** about ** 9.6 times** **than native `+=`** operator.
